@@ -1,0 +1,18 @@
+#nav-categories, #show-xs-nav .hidde-sp {display: none;}
+#new-style {border-radius: 0;}
+#categorieEditor {position: absolute; display: none; width:230px;}
+#categorieEditor input, #categorieEditor button {float: left;}
+#categorieEditor input {width: 150px;}
+#categorieEditor .yesSaveEdit {display: none;}
+#categorieEditor button {width:39px;}
+#categorieSubEdit {display: none; position: absolute;}
+#categorieSubEdit button {width:200px;}
+#show-xs-nav { border: 1px solid #666;  padding: 5px; text-decoration: none; color: #666;  font-size: 13px; text-align: center; margin-top: 10px; border-radius: 5px;}
+#positionEditor {position: absolute; display: none; width:230px;}
+#positionEditor input, #positionEditor button {float: left;}
+#positionEditor input {width: 150px;}
+#positionEditor .yesSavePosition {display: none;}
+#positionEditor button {width:39px;}
+.settings {position: fixed; width:250px;  z-index: 1000; display: none; color:#222d32 !important; top:20%; left: 20%}
+.settings #pass_result {display:none;}
+.img-thumbnail{width: 120px; }
