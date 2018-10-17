@@ -323,8 +323,21 @@ div.product-sort .form-group { margin-bottom : 0; }
   line-height: 1.666667;
 }
 .site-logo {width: 200px}
-.product-img{width: auto; height: 240px}
+.product-img{
+	display: table-cell;  
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: cover;
+
+	}
 .blog-img{width: 370px; max-height: 255px; overflow: hidden;}
 .shop-img{width: auto; height: 180px}
 .f_blog_title{background: rgba(0,0,0,0.6);}
 .shopping-cart-image{ width: 70px; height: 50px;  }
+.l_product_item{
+	display: table;
+}
+.l_p_img{
+	height: 250px;
+	overflow: hidden;
+}

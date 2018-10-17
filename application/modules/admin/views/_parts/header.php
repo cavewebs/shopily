@@ -60,7 +60,7 @@
                                 <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
-                <h3>E-Commerce</h3>
+                <h3>QUICK MENU</h3>
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-shopping-cart"></i> PRODUCTS <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
@@ -70,6 +70,10 @@
                       <li><a href="<?= base_url('admin/discounts') ?>">Discount Codes (Coupons)</a></li>
                     </ul>
                   </li>
+
+                  <li><a href="<?= base_url('admin/settings') ?>"><i class="fa fa-cogs"></i>Shop Settings</a></li>
+
+                  <li><a href="<?= base_url('admin/templates') ?>"> <i class="fa fa-desktop"></i>Templates/Design</a></li>
                   <li>
                     <a href="<?= base_url('admin/orders') ?>">
                     <i class="fa fa-money"></i> Manage Orders <?php if ($numNotPreviewOrders > 0) { ?>
@@ -119,34 +123,16 @@
                 </ul>
           </div>
 
-          <div class="menu_section">
-             <h3>Settings</h3>
-                <ul class="nav side-menu">
-                  <li><a href="<?= base_url('admin/settings') ?>"><i class="fa fa-cogs"></i>Shop Settings</a></li>
-                  <li><a href="<?= base_url('admin/templates') ?>"> <i class="fa fa-desktop"></i>Templates/Design</a></li>
-                  <li><a href="<?= base_url('admin/emails') ?>"> <i class="fa fa-envelope"></i>Newsletter Subscribtions</a></li>
-                  <li><a href="<?= base_url('admin/titles') ?>"> <i class="fa fa-globe"></i>Search Engine Settings</a></li>
-                </ul>
-          </div>
-
         <div class="menu_section">
              <h3>Advanced Settings</h3>
                 <ul class="nav side-menu">
-                    <li>
-                    <a href="<?= base_url('admin/history') ?>">
-                        <i class="fa fa-chevron-down"></i> 
-                            Activity History 
-                    </a>
-                    </li>
+                  <li><a href="<?= base_url('admin/emails') ?>"> <i class="fa fa-envelope"></i>Newsletter Subscribtions</a></li>
 
-                   <li>
-                    <a href="<?= base_url('admin/pages') ?>">
-                        <i class="fa fa-edit"></i> 
-                            Site Pages 
-                    </a>
-                  </li>
+                  <li><a href="<?= base_url('admin/titles') ?>"> <i class="fa fa-globe"></i>Search Engine Settings</a></li>
+
                   <li><a href="<?= base_url('admin/languages') ?>" <?= urldecode(uri_string()) == 'admin/languages' ? 'class="active"' : '' ?>><i class="fa fa-globe" aria-hidden="true"></i> Site Messages</a>
                   </li>
+                  
                   <li><a href="<?= base_url('admin/adminusers') ?>" <?= urldecode(uri_string()) == 'admin/adminusers' ? 'class="active"' : '' ?>><i class="fa fa-user" aria-hidden="true"></i> Admin Users</a></li>   
                 </ul>
               </div>
